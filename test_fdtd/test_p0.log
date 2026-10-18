@@ -1,0 +1,87 @@
+All processes are communicating and ready to proceed to simulation...
+CPU threads per process: 1
+Checked out feature at start: 'FDTD_Solutions_engine'
+Checked out HPC license feature: 'FDTD_Solutions_engine'
+Ansys Lumerical 2025 R2 FDTD Solver Version 8.34.4175 (Windows 64bit)
+ expires (month/day/year): 12/31/2035
+using config file: Ansys Licensing set with ANSYSLMD_LICENSE_FILE
+license host: 1055@localhost
+current time: 周日 10月 18 22:39:40 2026
+Running on host: DESKTOP-9AT137F
+host available memory (GiB) 5.233
+
+All processes are communicating and ready to proceed to simulation...
+Detected 12 processes on 1 host
+This process is the local leader
+Running fsp file: C:\Program Files\ANSYS Inc\v252\Lumerical\bin\fdtd-engine-msmpi.exe -t 1 -remote -shared-solve-license QU5TWVNfTElDRU5TSU5HX0NPTlRFWFRfREFUQT08QU5TWVNfTElDRU5TSU5HX0NPTlRFWFRfREFUQT48REFUQT5QRTlMUlZsZlUwbGFSVDRLTVRJNENqd3ZUMHRGV1Y5VFNWcEZQZ284UlU1RFgxTkpXa1UtQ2pFeU9BbzhMMFZPUTE5VFNWcEZQZ284U1ZaZlUwbGFSVDRLT0FvOEwwbFdYMU5KV2tVLUNqeE5VMGRmVTBsYVJUNEtNVE01Q2p3dlRWTkhYMU5KV2tVLUNqeE5VMGMtQ2tOTVptdGZiMHQ0VVhob01rZHZkRGxFWTJnd1FrTkRkRlEyUjNwVVJrUkRkRkUwT0ZndFRrOWpNWEJhT0VWNWFGbE1lV280VUZBMlgwSjBNV2hsUmxWdGVVRnljMGhtTm1rMlZGaFBhV3d5VjFka1RYTlZha0pCTUVzMGVVcEZkR2RoWmt4amVXOVhUSGwyWmtaclQxQllRVVZZTnpoWE1rWm1Well4Vm01TlgyVjRhREUwYjNneU5FcHBabGhEVlVOeE5WQmlNa1YzYjNOeVpDMVlUbmczVUdGTldYTnRNRVpCWjNWRFRreEdSMkY2VlhWV1ltMVNZWFZCY1c1TWFIQnpaMVJYZUVnd1pFdGhjVjlZWjBORVlWUnNNR1EyUVdwaVYweHJPSG94V1hGeGIycE5RVFZSVkhrMGVubDNURVpqVVZOR1dHdE9kemxoY2tkaFV6WnhhRWMyWDNWRU0zWnphMFZrYkU1MmVWTTRiRXBETms1QllqUlFTV1ZtUldaSk9HTXpUMXAyT1V4T2VVNTFaamt6VlROUU0wOVhSRVJIZUROTE1FcHRNWE5hWjNSd2NUSTFlRlZUZWtoTGVFNVVUbUUyVUZWc1drc3hkeTAxUmtjS1BDOU5VMGMtQ2c8L0RBVEE+PC9BTlNZU19MSUNFTlNJTkdfQ09OVEVYVF9EQVRBPgpBTlNZU19MSUNFTlNJTkdfV09SS0ZMT1dfU0VTU0lPTj08REFUQT48SUQ+REVTS1RPUC05QVQxMzdGX2xlZV8yNTI8L0lEPjwvREFUQT4K C:/Users/lee/Desktop/111/test_fdtd/test.fsp
+Estimate of memory required: 0.095 GiB
+
+Sharing project file with 11 peer processes on this host
+All processes are communicating and ready to proceed to simulation...
+number of processors is 12
+processors are distributed as: 3x2x2
+Peak CPU memory used by end of initialization: 0.075360 GiB
+Running 3D Simulation
+Starting meshing
+Simulation size in gridpoints: 31 x 30 x 25
+Refined 0 mesh cells (0.000000%)
+Completed meshing!
+Meshing complete in 0.000000 seconds of CPU time
+24% initialized.
+33% initialized.
+Starting meshing
+Simulation size in gridpoints: 31 x 30 x 25
+Refined 0 mesh cells (0.000000%)
+Completed meshing!
+Meshing complete in 0.000000 seconds of CPU time
+57% initialized.
+66% initialized.
+Starting meshing
+Simulation size in gridpoints: 31 x 30 x 25
+Refined 0 mesh cells (0.000000%)
+Completed meshing!
+Meshing complete in 0.000000 seconds of CPU time
+90% initialized.
+99% initialized.
+finished material properties
+Meshing Time: 0.012854 seconds, Init Electrical Material Time: 0.001955 seconds, Init Magnetic Material Time: 0.000042
+Using selected optimization level: 2
+Selecting 3d kernel for splitFieldDirection=0 and optLevel=2
+100% initialized.
+-----------------------------------------
+Beginning initialization of 3D Simulation
+Starting to add sources to simulation
+Starting to add boundary conditions to simulation
+Adding 3D PML BC
+Adding 3D Parallel BC
+Adding 3D PML BC
+Adding 3D Parallel BC
+Adding 3D PML BC
+Adding 3D Parallel BC
+Starting to add monitors to Simulation
+Adding analysis monitor
+Finished initialization of 3D Simulation
+-----------------------------------------
+Peak CPU memory used by end of meshing: 0.078092 GiB
+All processes are communicating and ready to proceed to simulation...
+Starting 18554 total iterations
+0.258707% complete. Elapsed simulation time: 2.58707e-15 secs. Max time remaining: 13 secs. Auto Shutoff: 1
+1.29353% complete. Elapsed simulation time: 1.29353e-14 secs. Max time remaining: 10 secs. Auto Shutoff: 1
+100% complete. Max time remaining: 0 mins, 0 secs. Auto Shutoff: 0
+Early termination of simulation, the autoshutoff criteria are satisfied.
+Completed 379 iterations, or 2.042706e-14s of Simulation Time
+Process 0 starting to collect data
+    collecting monitor data
+    collecting source data
+Finished collecting data
+Simulation completed successfully at: 周日 10月 18 22:39:40 2026
+Peak CPU memory used in the simulation (GiB): 0.078092
+Overall wall time measurements in seconds: 1.014078
+  time to mesh and initialize: 0.028144
+  time to run FDTD simulation: 0.216293
+  time to checkpoint simulation: 0.000000
+  time to finalize data and save to files: 0.004273
+  miscellaneous time: 0.765339
+  FDTD solver speed on process 0 (Mnodes/s): 40.739838
+  total FDTD solver speed on 12 processes (Mnodes/s): 488.878060
+
